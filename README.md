@@ -1,1 +1,1 @@
-# Automatic-Floodlights-For-3D-Printer-Octoprint-server-
+# Automatic Floodlights for 3D Printer (Octoprint-server)
