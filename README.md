@@ -24,7 +24,7 @@ In any case, wiring is fairly straight-forward.
 #### LEDs
 1. Put 5 LEDs on the breadboard
 1. Connect them in parallel (something like in the pictures below)
-1. Add a 10Ω resistor on one side (in this case I put it on the positive side - red wires in the images below)
+1. Add a 10Ω resistor on one side (in this case I put it on the positive side - red wires on the breadboard in the images below)
 1. Connect a wire from the resistor to a 5V pin on your Raspberry Pi (red wire going from the breadbord to the Raspberry Pi in the images below)
 
 #### Relay
