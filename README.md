@@ -30,7 +30,7 @@ In any case, wiring is fairly straight-forward.
 #### Relay
 1. Connect the NO to the negative side of the lamp (check the pictures below, it's the cyan wire going from the relay to the breadbord)
 1. Connect the signal pin on the relay to pin 7 on the Raspberry Pi (check the pictures below, it's the cyan wire going from the Raspberry Pi to the relay)
-1. connect the - pin on the relay to a ground header on your Raspberry Pi
+1. Connect the - pin on the relay to a ground header on your Raspberry Pi
 1. Connect the COM to another ground header on your raspberry Pi
 
 ### 1 - Default
