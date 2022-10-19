@@ -5,6 +5,7 @@ A Python script sends an HTTP GET request to the octoprint server. If it respond
 ### Software
 * Python 3 (Should be installed by default on Raspbian - [How to install](https://www.raspberrypi.org/forums/viewtopic.php?t=181480)) 
 * Python 3 RPi.GPIO package ```sudo pip install RPi.GPIO```
+* (Obviously) an Octoprint server
 * Works fine on Raspbian Bullseye (Debian 11)
 
 ### Hardware
