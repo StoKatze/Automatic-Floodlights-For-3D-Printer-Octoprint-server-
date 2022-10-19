@@ -68,6 +68,7 @@ If you want to use cron, I suggest setting it to run the autostart scripts. It's
 1. Download the [octoprintLedLog.sh](Autostart/octoprintLedLog.sh) script in the same directory of the python file
 1. Make it executable ```chmod +x octoprintLedLog.sh```
 1. Execute it
+
 Please note that the log file is erased every time you start this script.
 
 #### Using the silent autostart
