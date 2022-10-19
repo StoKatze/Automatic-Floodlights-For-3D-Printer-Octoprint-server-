@@ -88,7 +88,7 @@ Please note that the log file is erased every time you start this script.
 * Or you can execute the python script directly (not tested but should work fine - not logging version):<br>
 ```@reboot python3 path/to/your/AutomaticOctoprintLED.py >& /dev/null```
 * Or you can execute the python script directly (not tested but should work fine - logging version):<br>
-```@reboot python3 path/to/your/AutomaticOctoprintLED.py > ./log.txt 2>&1```
+```@reboot python3 path/to/your/AutomaticOctoprintLED.py > /path/to/log.txt 2>&1```
 
 If the script terminates earlier than expected (due to some connection errors) you may need to add some timeout to allow octoprint to start.
 Just add ```sleep [NUMBER_IN_SECONDS] && ``` after ```@reboot``` but before anything else (please note there must be a space after ```@reboot``` and after ```&&```).
