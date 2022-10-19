@@ -89,7 +89,7 @@ Please note that the log file is erased every time you start this script.
 ```@reboot python3 path/to/your/AutomaticOctoprintLED.py > ./log.txt 2>&1```
 
 If the script terminates earlier than expected (due to some connection errors) you may need to add some timeout to allow octoprint to start.
-Just add ```sleep [NUMBER_IN_SECONDS] && ``` after ```@reboot``` but before anything else (please note there must be a space after ```@reboot@ and after ```&&```).
+Just add ```sleep [NUMBER_IN_SECONDS] && ``` after ```@reboot``` but before anything else (please note there must be a space after ```@reboot``` and after ```&&```).
 E.g.: ```@reboot sleep 60 && /path/to/your/octoprintLed.sh``` [OR] ```@reboot sleep 120 && python3 path/to/your/AutomaticOctoprintLED.py > ./log.txt 2>&1```
 
 ## Thank you
