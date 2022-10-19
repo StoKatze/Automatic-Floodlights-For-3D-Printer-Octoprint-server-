@@ -35,7 +35,7 @@ In any case, wiring is fairly straight-forward.
 
 ### 1 - Default
 ![Wiring scheme](https://github.com/StoKatze/Automatic-Floodlights-For-3D-Printer-Octoprint-server-/blob/main/Wiring%20Scheme/Lampadina%20Stampante%203D_bb_normal.png)
-* Connect the + pin on the relay to the other unused 5V pin on your Raspberry Pi (red wire going from the Raspberry Pi to the relay in the picvure above)
+* Connect the + pin on the relay to the other unused 5V pin on your Raspberry Pi (red wire going from the Raspberry Pi to the relay in the picture above)
 If you don't have a second 5V pin available, please follow the alternate wiring instructions.
 
 ### 2 - Alternate
