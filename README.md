@@ -62,7 +62,7 @@ If you want to use cron, I suggest setting it to run the autostart scripts. It's
 1. Execute the script ```python3 AutomaticOctoprintLED.py```
 1. The script should print some text
 1. Use ```CTRL+C``` to terminate it
-1. OPTIONAL: you can run it to save a log file (don't forget the -u option - also note that the log is erased every time you start the python script) ```python3 -u AutomaticOctoprintLED.py > ./log.txt 2>&1 ``` or ignore all output ```python3 AutomaticOctoprintLED.py &> /dev/null``` - You can also use screen to hide the output (```sudo apt update && sudo apt install screen && screen``` press enter and write your command. You can use ```CTRL+A+D``` to detach from your screen session and ```screen -r``` to resume it)
+1. OPTIONAL: you can run it to save a log file (don't forget the -u option - also note that the log is erased every time you start the python script) ```python3 -u AutomaticOctoprintLED.py > ./log.txt 2>&1 ``` or ignore all output ```python3 AutomaticOctoprintLED.py &> /dev/null``` - You can also use screen to hide the output (```sudo apt update && sudo apt install screen && screen```, press enter and write your command. You can use ```CTRL+A+D``` to detach from your screen session and ```screen -r``` to resume it)
 
 ####  Using the autostart with logging
 1. Download the [octoprintLedLog.sh](Autostart/octoprintLedLog.sh) script in the same directory of the python file
