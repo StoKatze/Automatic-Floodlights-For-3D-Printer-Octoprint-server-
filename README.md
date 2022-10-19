@@ -16,7 +16,7 @@ A Python script sends an HTTP GET request to the octoprint server. If it respond
 
 ## Wiring scheme
 There are two ways to wire this thing.
-The first one is the reccommended way.
+The first one is the recommended way.
 The second one is an alternate way if, for example, you are using a fan on your Pi alongside these LEDs and don't have any spare 5V pins.
 In any case, wiring is fairly straight-forward. 
 
@@ -55,7 +55,7 @@ If you want to use cron, I suggest setting it to run the autostart scripts. It's
 1. Create a new directory and ```CD``` into it
 1. Download [AutomaticOctoprintLED.py](Python/AutomaticOctoprintLED.py) in this directory
 1. Edit it using nano or any other text editor ```nano AutomaticOctoprintLED.py```
-1. Check and, if needed, edit your settings from line 13 to line 16 (an in-depth explaination of this option is available in the script, comments from line 6 to line 12)
+1. Check and, if needed, edit your settings from line 13 to line 16 (an in-depth explanation of these options is available in the script, comments from line 6 to line 12)
 1. Set your API Key on line 18 (Octoprint Server Web UI -> Settings -> API -> Enable CORS, then copy the Global API Key string) - DO NOT SHARE THIS KEY! WHOEVER HAS IT CAN CONTROL YOUR WHOLE OCTOPRINT SERVER!
 1. If you are using another pin for the relay signal, edit line 23 too
 1. Save and exit
