@@ -17,7 +17,7 @@ A Python script sends an HTTP GET request to the octoprint server. If it respond
 ## Wiring scheme
 There are two ways to wire this thing.
 The first one is the reccommended way.
-The second one is an alternate way if you are using a fan on your Pi alongside these LEDs and don't have any spare 5V pins.
+The second one is an alternate way if, for example, you are using a fan on your Pi alongside these LEDs and don't have any spare 5V pins.
 In any case, wiring is fairly straight-forward. 
 
 ### Common parts
