@@ -78,6 +78,7 @@ Please note that the log file is erased every time you start this script.
 
 #### Using crontab to automatically start this script at boot time
 1. Edit your user's crontab (don't forget to edit the path to match your system settings - also if you want to save a log file make sure that the user you're editing the crontab is allowed to write to the script folder): ```crontab -e```
+1. Add one of the following, depending on your setup: 
 * If using the logging start script [octoprintLedLog.sh](Autostart/octoprintLedLog.sh):<br>
 ```@reboot /path/to/your/octoprintLedLog.sh```
 * If using the silent start script [octoprintLed.sh](Autostart/octoprintLed.sh):<br>
