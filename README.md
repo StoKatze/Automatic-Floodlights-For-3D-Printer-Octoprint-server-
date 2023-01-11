@@ -1,3 +1,7 @@
+# PLEASE NOTE - If you are using Octoprint, you can use its event system. No need to do all of this. Check my new repository for more info: https://github.com/StoKatze/Automatic-Floodlights-for-3D-Printer-Octoprint-server-event-
+
+This repository will be archived.
+
 # Automatic Floodlights for 3D Printer (Octoprint server)
 A Python script sends an HTTP GET request to the octoprint server. If it responds that it is printing, a signal is sent to a relay that turns on a parallel led lamp that I use as a flood light for the timelapse camera.
 
