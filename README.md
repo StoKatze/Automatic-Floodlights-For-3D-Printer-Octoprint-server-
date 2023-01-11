@@ -1,4 +1,4 @@
-# PLEASE NOTE - If you are using Octoprint, you can use its event system. No need to do all of this. Check my new repository for more info: https://github.com/StoKatze/Automatic-Floodlights-for-3D-Printer-Octoprint-server-event-
+# PLEASE NOTE - If you are using Octoprint, you can use its event manager. No need to do all of this. Check my new repository for more info: https://github.com/StoKatze/Automatic-Floodlights-for-3D-Printer-Octoprint-server-event-
 
 This repository will be archived.
 
